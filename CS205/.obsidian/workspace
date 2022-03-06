@@ -1,29 +1,33 @@
 {
   "main": {
-    "id": "a258f228c28b447c",
+    "id": "34866f1f91d89d54",
     "type": "split",
     "children": [
       {
-        "id": "862f52ea23862bdc",
+        "id": "c80b846ff15e91a9",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "HW.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "0f4dfde30c082364",
+    "id": "354d0f7e5a721043",
     "type": "split",
     "children": [
       {
-        "id": "7fa4cc7db2ed2ae8",
+        "id": "ec26b7803835d5e0",
         "type": "tabs",
         "children": [
           {
-            "id": "e7861fae3045d911",
+            "id": "190e643b896376f4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -31,7 +35,7 @@
             }
           },
           {
-            "id": "e78f54b4aa2e4255",
+            "id": "a4d77c475fd1669c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -49,22 +53,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303
+    "width": 300
   },
   "right": {
-    "id": "cc37311e14f269cf",
+    "id": "1b40b39ed69f6788",
     "type": "split",
     "children": [
       {
-        "id": "f0ea05468590b89e",
+        "id": "2949b62ed60ffd0f",
         "type": "tabs",
         "children": [
           {
-            "id": "625d58cc72caa0a1",
+            "id": "0c63dc0c68df0960",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,11 +87,8 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "862f52ea23862bdc",
+  "active": "c80b846ff15e91a9",
   "lastOpenFiles": [
-    "Chapter 2.md.md",
-    "test.md",
-    "Untitled.md",
-    "Pasted image 20220305204036.png"
+    "HW.md"
   ]
 }

@@ -1,4 +1,4 @@
-- [ ] Finish Chapter 5 of Linux HW - __3/6/3_2022
+- [x] Finish Chapter 5 of Linux HW - __3/6/3_2022
 - [ ] Finish HW03 for CS435 - __3/7/2022__
 - [ ] Start some kind of personal CS project **please**
 - [ ] Finish AI Abstract - __3/10/2022__
