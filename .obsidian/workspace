@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CS435/Chapter 3.md",
+            "file": "Dailies/TODO.md",
             "mode": "preview",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "aa0cc96dc89c809c",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS435/Chapter 3.md",
+                "file": "Dailies/TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +89,7 @@
   },
   "active": "1eeebcd6ff215df5",
   "lastOpenFiles": [
+    "Dailies/TODO.md",
     "CS435/Chapter 3.md",
     "CS435/Chapter 2.md"
   ]
