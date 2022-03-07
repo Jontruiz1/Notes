@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "34866f1f91d89d54",
+    "id": "41ef9fab61bd8e02",
     "type": "split",
     "children": [
       {
-        "id": "c80b846ff15e91a9",
+        "id": "1eeebcd6ff215df5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HW.md",
+            "file": "CS435/Chapter 2.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "354d0f7e5a721043",
+    "id": "03665e36b7dbff28",
     "type": "split",
     "children": [
       {
-        "id": "ec26b7803835d5e0",
+        "id": "d5409abe25da8b6e",
         "type": "tabs",
         "children": [
           {
-            "id": "190e643b896376f4",
+            "id": "dc2627d2015a4567",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "a4d77c475fd1669c",
+            "id": "e8e27918dd07f573",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -53,23 +53,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "1b40b39ed69f6788",
+    "id": "aa0cc96dc89c809c",
     "type": "split",
     "children": [
       {
-        "id": "2949b62ed60ffd0f",
+        "id": "7457fc0103f18ba9",
         "type": "tabs",
         "children": [
           {
-            "id": "0c63dc0c68df0960",
+            "id": "9284269441b08ad5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HW.md",
+                "file": "CS435/Chapter 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +88,8 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c80b846ff15e91a9",
+  "active": "1eeebcd6ff215df5",
   "lastOpenFiles": [
-    "HW.md"
+    "CS435/Chapter 2.md"
   ]
 }
