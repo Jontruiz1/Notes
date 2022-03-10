@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CS435/HW04.md",
+            "file": "CS435/Chapter 3.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS435/HW04.md",
+                "file": "CS435/Chapter 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,9 +90,9 @@
   },
   "active": "1eeebcd6ff215df5",
   "lastOpenFiles": [
+    "CS435/Chapter 3.md",
     "CS435/HW04.md",
     "Dailies/TODO.md",
-    "CS435/Chapter 3.md",
     "CS435/Chapter 2.md"
   ]
 }
