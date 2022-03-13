@@ -1,3 +1,5 @@
 - [x] Finish HW03 for CS435 - __3/7/2022__
 - [ ] Start some kind of personal CS project **please**
-- [ ] Finish AI Abstract - __3/10/2022__
+- [x] Finish AI Abstract - __3/10/2022__
+- [ ] Study for 435 Exam
+- [ ] Study for 418 Exam
