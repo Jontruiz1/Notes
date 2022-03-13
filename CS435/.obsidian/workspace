@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "In-Class Exam Notes.md",
+            "file": "Exam Studying.md",
             "mode": "source",
             "source": false
           }
@@ -49,11 +49,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 303
+    "width": 303,
+    "collapsed": true
   },
   "right": {
     "id": "cc37311e14f269cf",
@@ -69,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "In-Class Exam Notes.md",
+                "file": "Exam Studying.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,13 +91,13 @@
   },
   "active": "862f52ea23862bdc",
   "lastOpenFiles": [
+    "Exam Studying.md",
     "In-Class Exam Notes.md",
+    "test.md",
+    "HW04.md",
     "Chapter 2.md",
     "Chapter 3.md",
-    "HW04.md",
-    "test.md",
     "Chapter 2.md.md",
-    "Untitled.md",
     "Pasted image 20220305204036.png"
   ]
 }
