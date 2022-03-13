@@ -157,10 +157,36 @@
 	- Based off of these derivations, we can see that the number of a's stays equal to the number of b's, therefore with set notation we can say that: $\{a^n b^n | n > 0\}$ 
 - # Be able to construct languages (remember: they are sets of strings) using set union, set intersection and set difference; and subset-of and member-of predicates.
 - # Know how to express grammars in BNF, EBNF, and Syntax flow diagrams.
+	- **BNF**:
+		- *Backus-Naur Form, notation for expressing grammars*
+		- **
 - # Given a description of a Regular Language (RL) via English, or Regular Expression (RegEx), create an NFA or DFA M such that RL = L(M).
 - # Given a DFA or NFA M or English description of an RL give a RegEx of that RL
 - # Given a RegEx denoting the language LregEx, give a DFA, M, such that LregEx = L(M).
 - # Be able to show a sentence is ambiguous or a grammar is ambiguous. Define what inherently ambiguous means.
+	- An ambiguous sentence is a sentence that has two or more distinct leftmost/rightmost derivations with respect to a grammar.
+	- An ambiguous grammar is a grammar that generates at least one ambiguous sentence.
+	- An language is inherently ambiguous iff there are no unambiguous grammars that generate the language.
 - # Show how a grammar can be used for syntax-directed translation where the parse trees correspond to easier synthesis of target code according to the semantics of the language, such as precedence or associativity of arithmetic operators, control constructs (while, if-then-else, …, etc.).
+	- 
 - # Know how to create and read (use) a context free grammar expressed with BNF or EBNF notation.
+	- 
 - # Be able to draw parse trees for leftmost and rightmost derivations.
+	- Rightmost just involves deriving the right most term first and then working from right to left
+	- Leftmost just involves deriving the left most term first and then working from left to right
+	- Given ![[Pasted image 20220313144826.png]] a leftmost derivation could be $$E \implies E+E \implies id + E \implies id + E*E \implies id + id * E \implies id + id * id$$ the parse tree could then be taken from this directly where we put the root as the starting node and from there we can follow the progression very linearly where E goes to E, +, and E, each E goes to it's respective terms. 
+	  ```mermaid 
+			flowchart TD;
+				E1 --> E2;
+				E1 --> +;
+				E1 --> E3;
+				
+				E2 --> id1;
+				E3 --> E4;
+				E3 --> *;
+				E3 --> E5;
+				
+				E4 --> id2;
+				E5 --> id3;
+	  ```
+	  

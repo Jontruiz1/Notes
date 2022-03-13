@@ -3,3 +3,4 @@
 - [x] Finish AI Abstract - __3/10/2022__
 - [ ] Study for 435 Exam
 - [ ] Study for 418 Exam
+- [ ] Make a discord bot that uses blackboard api to make grade announcements

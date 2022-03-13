@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Dailies/TODO.md",
+            "file": "CS435/Exam Studying.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "aa0cc96dc89c809c",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dailies/TODO.md",
+                "file": "CS435/Exam Studying.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,11 +90,15 @@
   },
   "active": "1eeebcd6ff215df5",
   "lastOpenFiles": [
-    "Dailies/TODO.md",
-    "Dailies/Weird Things We've Tried.md",
     "CS435/Exam Studying.md",
     "CS435/HW04.md",
-    "CS435/Chapter 3.md",
-    "CS435/Chapter 2.md"
+    "CS435/In-Class Exam Notes.md",
+    "CS205/HW.md",
+    "CS435/test.md",
+    "CS435/Pasted image 20220313010612.png",
+    "CS435/Pasted image 20220313011225.png",
+    "CS435/Pasted image 20220313012438.png",
+    "CS435/Pasted image 20220313012749.png",
+    "Dailies/TODO.md"
   ]
 }
