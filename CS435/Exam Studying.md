@@ -7,7 +7,7 @@
 - Apply set theory operations for reasoning about languages
 
 ## Topics
-- # Be able to define and/or explain the concepts of compiler, interpreter, hybrid compiler-interpreter, linkers, virtual machines, source code, object code, target code, executable code, static library; know how these terms are related and be ready to give examples of languages and their development environments
+- #### Be able to define and/or explain the concepts of compiler, interpreter, hybrid compiler-interpreter, linkers, virtual machines, source code, object code, target code, executable code, static library; know how these terms are related and be ready to give examples of languages and their development environments
 	- **Compiler**:
 		- *A translator that translates the source code into code expressed in another language called Target Code. 
 		- *Generate very low-level code for the most part*
@@ -78,7 +78,7 @@
 		- *The code that has been translated from another source code. Can be expressed in another language compared to the source code. The language of the target code is called the target language* 
 	- **Executable code**
 	- **Static library**
-- # Know the major phases and data structures/models used in compilers:
+- #### Know the major phases and data structures/models used in compilers:
 	- **Lexical analysis/scanner: (token stream)**
 		- *Involves reading the source code character by character, eliminating whitespace (space, tab, newline characters), removing comments and recognizing lexemes.*
 		- 
@@ -91,10 +91,10 @@
 	- **Machine independent code optimization (optional): (e.g. 3-address instructions)**
 	- **Code generator target code generator (e.g. assembler)**
 	- **Modified target code generator**
-- # Know how the Simple_PL1 scanner is designed and how tokens and lexemes are represented and communicated to the parser. Know the difference between a lexeme and a token.
+- #### Know how the Simple_PL1 scanner is designed and how tokens and lexemes are represented and communicated to the parser. Know the difference between a lexeme and a token.
 	- **Lexeme**
 		- *Lexemes are meaningful strings that are treated as "atomic" in a language like `sum`, `<=`, or `for`*
-- # Know definitions related to Chomsky grammars, such as definitions of the terms: Kleene closure, languages, productions, derives, sentential forms, sentences, non-terminals, terminals
+- #### Know definitions related to Chomsky grammars, such as definitions of the terms: Kleene closure, languages, productions, derives, sentential forms, sentences, non-terminals, terminals
 	- **Kleene closure**
 		- 
 	- **Languages**
@@ -125,7 +125,7 @@
 	- **Terminals**
 		- *$V_T$ is the nonempty finite set of symbols called terminals where $V_N \cap V_T = \emptyset$*
 		- *In our cases, terminals have been upper-case letters*
-- # Be able to classify the most restrictive grammar class according to the form of production rules.
+- #### Be able to classify the most restrictive grammar class according to the form of production rules.
 	- **Phrase-Structured Grammar (type 0):**
 		- *Productions of the form $\alpha \to \beta$* 
 		- *Where $\alpha \in V^+$ and $\beta \in V^*$.*
@@ -150,28 +150,28 @@
 		- Example of Regular Grammar
 			- ![[Pasted image 20220313012438.png]]
 			- $S,U,V \in V_N$ and $a,b \in V_T$ therefore all the productions follow the form of a regular grammar. The productions also follow the form of a right linear grammar
-- # Know the difference between the classification of Chomsky languages and classifications of Chomsky grammars and the relationship between the languages and grammars.
-- # Given grammar, G, describe L(G) using set notation and exponent notation. 
+- #### Know the difference between the classification of Chomsky languages and classifications of Chomsky grammars and the relationship between the languages and grammars.
+- #### Given grammar, G, describe L(G) using set notation and exponent notation. 
 	- G1: ![[Pasted image 20220313012749.png]], to describe L(G1) we can simply produce a ton of derivations for now and observe the patterns
 	- $$S \implies aSb \implies aaSbb \implies aaaSbbb \implies aaaabbbb$$
 	- Based off of these derivations, we can see that the number of a's stays equal to the number of b's, therefore with set notation we can say that: $\{a^n b^n | n > 0\}$ 
-- # Be able to construct languages (remember: they are sets of strings) using set union, set intersection and set difference; and subset-of and member-of predicates.
-- # Know how to express grammars in BNF, EBNF, and Syntax flow diagrams.
+- #### Be able to construct languages (remember: they are sets of strings) using set union, set intersection and set difference; and subset-of and member-of predicates.
+- #### Know how to express grammars in BNF, EBNF, and Syntax flow diagrams.
 	- **BNF**:
 		- *Backus-Naur Form, notation for expressing grammars*
 		- **
-- # Given a description of a Regular Language (RL) via English, or Regular Expression (RegEx), create an NFA or DFA M such that RL = L(M).
-- # Given a DFA or NFA M or English description of an RL give a RegEx of that RL
-- # Given a RegEx denoting the language LregEx, give a DFA, M, such that LregEx = L(M).
-- # Be able to show a sentence is ambiguous or a grammar is ambiguous. Define what inherently ambiguous means.
+- #### Given a description of a Regular Language (RL) via English, or Regular Expression (RegEx), create an NFA or DFA M such that RL = L(M).
+- #### Given a DFA or NFA M or English description of an RL give a RegEx of that RL
+- #### Given a RegEx denoting the language LregEx, give a DFA, M, such that LregEx = L(M).
+- #### Be able to show a sentence is ambiguous or a grammar is ambiguous. Define what inherently ambiguous means.
 	- An ambiguous sentence is a sentence that has two or more distinct leftmost/rightmost derivations with respect to a grammar.
 	- An ambiguous grammar is a grammar that generates at least one ambiguous sentence.
 	- An language is inherently ambiguous iff there are no unambiguous grammars that generate the language.
-- # Show how a grammar can be used for syntax-directed translation where the parse trees correspond to easier synthesis of target code according to the semantics of the language, such as precedence or associativity of arithmetic operators, control constructs (while, if-then-else, …, etc.).
+- #### Show how a grammar can be used for syntax-directed translation where the parse trees correspond to easier synthesis of target code according to the semantics of the language, such as precedence or associativity of arithmetic operators, control constructs (while, if-then-else, …, etc.).
 	- 
-- # Know how to create and read (use) a context free grammar expressed with BNF or EBNF notation.
+- #### Know how to create and read (use) a context free grammar expressed with BNF or EBNF notation.
 	- 
-- # Be able to draw parse trees for leftmost and rightmost derivations.
+- #### Be able to draw parse trees for leftmost and rightmost derivations.
 	- Rightmost just involves deriving the right most term first and then working from right to left
 	- Leftmost just involves deriving the left most term first and then working from left to right
 	- Given ![[Pasted image 20220313144826.png]] a leftmost derivation could be $$E \implies E+E \implies id + E \implies id + E*E \implies id + id * E \implies id + id * id$$ the parse tree could then be taken from this directly where we put the root as the starting node and from there we can follow the progression very linearly where E goes to E, +, and E, each E goes to it's respective terms. 
@@ -189,4 +189,22 @@
 				E4 --> id2;
 				E5 --> id3;
 	  ```
-	  
+	  the rightmost derivation would just be taking the rightmost term and deriving it just as we would with a leftmost derivation. This same derivation can be expressed as  $$E \implies E + E \implies E + id \implies E * E + id \implies E * id + id \implies id * id + id$$  and the parse tree would look something like this: 
+	  ```mermaid
+		  flowchart TD;
+			  E1 --> E2;
+			  E1 --> +;
+			  E1 --> E3;
+			  
+			  E2 --> E4;
+			  E2 --> *;
+			  E2 --> E5;
+			  
+			  E3 --> id1;
+			  
+			  
+			  E5 --> id2;
+			  E4 --> id3;
+			   
+	  ```
+	
