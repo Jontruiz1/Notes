@@ -9,10 +9,23 @@
 ## Topics
 - #### Be able to define and/or explain the concepts of compiler, interpreter, hybrid compiler-interpreter, linkers, virtual machines, source code, object code, target code, executable code, static library; know how these terms are related and be ready to give examples of languages and their development environments
 	- **Compiler**:
-		- *A translator that translates the source code into code expressed in another language called Target Code. 
+		- *A translator that translates the source code into code expressed in another language called Target Code.* 
 		- *Generate very low-level code for the most part*
 		- *Is a problem itself and must be written in a language*
 		- *Can have multiple target languages assigned to one source code*
+```mermaid
+	flowchart TD;
+		Source_Code_File --> Scanner;
+		Scanner --> Parser;
+		Parser --> Semantic_Analysis;
+		Semantic_Analysis --> Optional_Code_Optimizations
+		Semantic_Analysis --> Code_Generation
+		Optional_Code_Optimizations --> Code_Generation
+		Code_Generation --> Assembler_Code_File
+		Code_Generation --> Object_Code_File
+```
+
+- Object code to executable
 	```mermaid
 		flowchart TD;
 		subgraph Library;
@@ -21,8 +34,7 @@
 			Library --> Linker
 			Source_Code_Language_A --> Compiler_A --> Object_Code_1_Machine_M --> Linker;
 			Source_Code_Language_B --> Compiler_B --> Object_Code_2_Machine_M --> Linker;
-			Linker --> Executable --> m["MicroCode | Physical Machine M"];
-			
+			Linker --> Executable --> m["MicroCode | Physical Machine M"];		
 	```
 	
 	- 
@@ -31,9 +43,9 @@
 		- **Interpreter**:
 			- Also includes a scanner and a parser.
 			- The input language is not translated to a language external to the interpreter code.
-			- An AST is generated to emulate semantics of the construct
-			- Often implemented in a Read-Evaluate-Print-Loop (REPL) environment. bash or Powershell operate this way
-			- Code execution often slower than compilation
+			- An AST is generated to emulate semantics of the construct.
+			- Often implemented in a Read-Evaluate-Print-Loop (REPL) environment. Bash or Powershell operate this way.
+			- Code execution often slower than compilation.
 	```mermaid
 	flowchart TD;
 		int["Interpreter | internal compiler and abstract machine"]
@@ -81,19 +93,22 @@
 - #### Know the major phases and data structures/models used in compilers:
 	- **Lexical analysis/scanner: (token stream)**
 		- *Involves reading the source code character by character, eliminating whitespace (space, tab, newline characters), removing comments and recognizing lexemes.*
-		- 
+		- A lexical error occurs when a character does not match the proper pattern of an accepted lexeme such as the @ sign.
 	- **Parser/syntax analyzer/parse: parse tree**
 		- *Parser analyzes grammatical structure of source code and, if syntax is correct, produces a parse tree representation of syntactical structure.*
-		-  
+		-  A syntax error occurs when when something that goes against the rules or syntax of the language occurs such as mispelling a reserved word like int as nit
 	- **Semantic analyzer and intermediate code generation: abstract syntax tree**
 		- *AST produced by syntax analysis is traversed.*
 		- 
 	- **Machine independent code optimization (optional): (e.g. 3-address instructions)**
 	- **Code generator target code generator (e.g. assembler)**
 	- **Modified target code generator**
+		- *Always M1* 
 - #### Know how the Simple_PL1 scanner is designed and how tokens and lexemes are represented and communicated to the parser. Know the difference between a lexeme and a token.
 	- **Lexeme**
 		- *Lexemes are meaningful strings that are treated as "atomic" in a language like `sum`, `<=`, or `for`*
+	- **Token**
+		- For each lexeme, a token is produced by scanner. Each token has the form token_name
 - #### Know definitions related to Chomsky grammars, such as definitions of the terms: Kleene closure, languages, productions, derives, sentential forms, sentences, non-terminals, terminals
 	- **Kleene closure**
 		- 
@@ -119,6 +134,7 @@
 	- **Sentential forms**
 		- *A string $\alpha$ derivable from the start symbol, S*
 	- **Sentences**
+		- A derivation of a grammar in sentential form
 	- **Non-terminals**
 		- *$V_N$ is the nonempty finite set of symbols called non-terminals*
 		- *In our cases, non-terminals have been lowercase, or non-uppercase letters*
@@ -156,13 +172,27 @@
 	- $$S \implies aSb \implies aaSbb \implies aaaSbbb \implies aaaabbbb$$
 	- Based off of these derivations, we can see that the number of a's stays equal to the number of b's, therefore with set notation we can say that: $\{a^n b^n | n > 0\}$ 
 - #### Be able to construct languages (remember: they are sets of strings) using set union, set intersection and set difference; and subset-of and member-of predicates.
+	- 
 - #### Know how to express grammars in BNF, EBNF, and Syntax flow diagrams.
 	- **BNF**:
 		- *Backus-Naur Form, notation for expressing grammars*
-		- **
+		- 
+		- 
+	- **EBNF**
+	- **Syntax Flow Diagrams**
 - #### Given a description of a Regular Language (RL) via English, or Regular Expression (RegEx), create an NFA or DFA M such that RL = L(M).
+	- Follow the rules of Theorem 2.8.1
+	  $r_1$ | $r_2$ can make the machine
+	  ![[Pasted image 20220313220401.png]]
+	  $r_1r_2$ can make
+	  ![[Pasted image 20220313220443.png]]
+	  $r_1^*$
+	  ![[Pasted image 20220313220506.png]]
+	- 
 - #### Given a DFA or NFA M or English description of an RL give a RegEx of that RL
+	- 
 - #### Given a RegEx denoting the language LregEx, give a DFA, M, such that LregEx = L(M).
+	- 
 - #### Be able to show a sentence is ambiguous or a grammar is ambiguous. Define what inherently ambiguous means.
 	- An ambiguous sentence is a sentence that has two or more distinct leftmost/rightmost derivations with respect to a grammar.
 	- An ambiguous grammar is a grammar that generates at least one ambiguous sentence.
@@ -170,7 +200,20 @@
 - #### Show how a grammar can be used for syntax-directed translation where the parse trees correspond to easier synthesis of target code according to the semantics of the language, such as precedence or associativity of arithmetic operators, control constructs (while, if-then-else, …, etc.).
 	- 
 - #### Know how to create and read (use) a context free grammar expressed with BNF or EBNF notation.
-	- 
+	- BNF has the following structure:
+	   MetaSymbol | Meaning
+	  -------------|-----------
+	  ::== or --> | delimits left hand side from right-hand side
+	  \| | "or"
+	  <> | Surrounds nonterminal names
+	  Unaltered strings not between <>, Underlined String, bold-faced string, single quotes 'string', Double quotes "string"| terminals
+	- EBNF adds the following additional metasymbols
+	  MetaSymbol | Meaning
+	  -----|-----------
+	  \[$\alpha$\] |  $\alpha$ is optional
+	  \{$\alpha$\} | $\alpha$ can be repeated 0 or more times
+	  $\{\alpha\}^+$ | $\alpha$ can be repeated 1 or more times
+	  ($\alpha$) | Groups $\alpha$ into a EBNF subexpression
 - #### Be able to draw parse trees for leftmost and rightmost derivations.
 	- Rightmost just involves deriving the right most term first and then working from right to left
 	- Leftmost just involves deriving the left most term first and then working from left to right
@@ -207,4 +250,8 @@
 			  E4 --> id3;
 			   
 	  ```
-	
+	  - **What is an FSA**
+		  - Computational model for checking membership of strings in a language over a given alphabet.
+	  - **Relationship between the files in the projects**
+		  - The .l file has the actual driver program and the regular expressions for determining each part of the language.
+		  - The .y file has the token names that each lexeme has attached to it
