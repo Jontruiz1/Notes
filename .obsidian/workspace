@@ -9,7 +9,11 @@
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< Updated upstream
             "file": "CS435/Exam Studying.md",
+=======
+            "file": "Dailies/Weird Things We've Tried.md",
+>>>>>>> Stashed changes
             "mode": "source",
             "source": false
           }
@@ -70,7 +74,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "CS435/Exam Studying.md",
+=======
+                "file": "Dailies/Weird Things We've Tried.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +98,11 @@
   },
   "active": "1eeebcd6ff215df5",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
+=======
+    "Dailies/Weird Things We've Tried.md",
+    "Dailies/TODO.md",
+>>>>>>> Stashed changes
     "CS435/Exam Studying.md",
     "CS435/HW04.md",
     "CS435/In-Class Exam Notes.md",
