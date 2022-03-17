@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CS435/Exam Studying.md",
+            "file": "CS418/Exam Studying.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS435/Exam Studying.md",
+                "file": "CS418/Exam Studying.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +90,15 @@
   },
   "active": "c4d8e4698cf8f54b",
   "lastOpenFiles": [
+    "CS418/Exam Studying.md",
+    "Dailies/Potential plan.md",
+    "Untitled.md",
+    "Dailies/TODO.md",
+    "CS435/Production.md",
+    "Snapchat-1181875773 1.jpg",
+    "Snapchat-1181875773.jpg",
     "CS435/Exam Studying.md",
     "CS435/Practice.md",
-    "CS435/Exam Studying.pdf",
-    "Dailies/TODO.md",
-    "Dailies/Weird Things We've Tried.md",
-    "Dailies/Potential plan.md",
-    "Snapchat-1181875773.jpg",
-    "CS435/HW04.md",
-    "CS435/Chapter03_ChomskyGrammars_03-04-22.pdf",
-    "Production.md"
+    "CS435/Exam Studying.pdf"
   ]
 }
