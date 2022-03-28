@@ -1,0 +1,10 @@
+- Favorites
+	- Die Together - Amanada
+	- Hold Me Closer - Cornelia Jakobs
+	- SlowMo - Chanel
+- Liked
+	- Fulenn - Alvan
+	- Brividi - Mahmood
+	- Ela - Adromache
+- Wtf
+	- Give That Wolf A Banana - Subwoolfer

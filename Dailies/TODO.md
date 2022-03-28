@@ -2,5 +2,6 @@
 - [ ] Start some kind of personal CS project **please**
 - [x] Finish AI Abstract - __3/10/2022__
 - [x] Study for 435 Exam
-- [ ] Study for 418 Exam
+- [x] Study for 418 Exam
 - [ ] Make a discord bot that uses blackboard api to make grade announcements
+- [ ] AI Project Due May 10th

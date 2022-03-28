@@ -7,8 +7,12 @@
         "id": "c4d8e4698cf8f54b",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Untitled/KIN.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -49,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d7488b1b765b857d",
@@ -66,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Untitled/KIN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,15 +89,15 @@
   },
   "active": "c4d8e4698cf8f54b",
   "lastOpenFiles": [
+    "Untitled/KIN.md",
+    "Dailies/Eurovision.md",
+    "CS435/Chapter 4.md",
+    "Dailies/TODO.md",
     "CS435/Exam.md",
     "CS320/help.md",
-    "Dailies/TODO.md",
     "Dailies/Weird Things We've Tried.md",
     "CS435/Production.md",
     "CS435/Exam Studying.md",
-    "CS435/Chapter 2.md",
-    "Dailies/Images/Snapchat-1181875773 2.jpg",
-    "CS435/Snapchat-1181875773 1.jpg",
-    "CS435/Snapchat-1181875773.jpg"
+    "CS435/Chapter 2.md"
   ]
 }
