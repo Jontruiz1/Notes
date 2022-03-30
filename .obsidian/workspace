@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled/KIN.md",
+            "file": "Dailies/Eurovision.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 301
   },
   "right": {
     "id": "d7488b1b765b857d",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled/KIN.md",
+                "file": "Dailies/Eurovision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,8 +89,8 @@
   },
   "active": "c4d8e4698cf8f54b",
   "lastOpenFiles": [
-    "Untitled/KIN.md",
     "Dailies/Eurovision.md",
+    "Untitled/KIN.md",
     "CS435/Chapter 4.md",
     "Dailies/TODO.md",
     "CS435/Exam.md",

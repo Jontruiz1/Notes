@@ -2,9 +2,22 @@
 	- Die Together - Amanada
 	- Hold Me Closer - Cornelia Jakobs
 	- SlowMo - Chanel
+	- Boys Do Cry - Marius Bear
+	- SNAP - Rosa Linn
+	- Not The Same - Sheldon Rile
+	- Sentimentai - Monika LIU
 - Liked
 	- Fulenn - Alvan
 	- Brividi - Mahmood
 	- Ela - Adromache
+	- Saudade, saudade
+	- Llamame - wrs
+	- Eat Your Salad - Citi Zeni (its in the wtf one but I liked this one more)
+	- Rockstars - Malik Harris
+	- Guilty Pleasure - Mia Dimsic
+- I don't dislike but I don't like that much. Has some good parts. Might listen again
+	- Lock Me In - Circus Mircus
+	- I Am What I Am - Emma Muscat
+	- Jezebel - The Rasmus
 - Wtf
 	- Give That Wolf A Banana - Subwoolfer
