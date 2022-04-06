@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Dailies/Eurovision.md",
+            "file": "IDK.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301
+    "width": 301,
+    "collapsed": true
   },
   "right": {
     "id": "d7488b1b765b857d",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dailies/Eurovision.md",
+                "file": "IDK.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +90,15 @@
   },
   "active": "c4d8e4698cf8f54b",
   "lastOpenFiles": [
-    "Dailies/Eurovision.md",
-    "Untitled/KIN.md",
+    "IDK.md",
     "CS435/Chapter 4.md",
+    "Untitled/KIN.md",
+    "Dailies/Eurovision.md",
     "Dailies/TODO.md",
     "CS435/Exam.md",
     "CS320/help.md",
     "Dailies/Weird Things We've Tried.md",
     "CS435/Production.md",
-    "CS435/Exam Studying.md",
-    "CS435/Chapter 2.md"
+    "CS435/Exam Studying.md"
   ]
 }
