@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Dailies/Eurovision.md",
+            "file": "Dailies/SongRecs.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dailies/Eurovision.md",
+                "file": "Dailies/SongRecs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "c4d8e4698cf8f54b",
   "lastOpenFiles": [
+    "Dailies/SongRecs.md",
     "Dailies/Eurovision.md",
     "Untitled/KIN.md",
     "CS435/Chapter 4.md",
@@ -97,7 +98,6 @@
     "CS320/help.md",
     "Dailies/Weird Things We've Tried.md",
     "CS435/Production.md",
-    "CS435/Exam Studying.md",
-    "CS435/Chapter 2.md"
+    "CS435/Exam Studying.md"
   ]
 }
