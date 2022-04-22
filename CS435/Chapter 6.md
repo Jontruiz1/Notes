@@ -27,7 +27,6 @@ A' --> $\alpha_1 A'$ | $\alpha_2 A'$ | ... | $\alpha_n A'$ | $\epsilon$
 
 
 
-
 First of a terminal is just the singleton set
 
 		I have no idea
@@ -37,3 +36,14 @@ First of X, add t to first(X) if t $\epsilon$ First($Y_i$) for some i
 Never take the Follow() of a terminal
 First() of a terminal is just a singleton set of that terminal
 
+
+
+- Bottom-up Parsing
+- CFL = Context-Free Language
+- LR - Parsers
+
+- Shift
+	- Reads next input terminal and pushes it onto stack
+- Reduce
+- Accept
+- Error
