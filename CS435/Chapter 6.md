@@ -47,3 +47,19 @@ First() of a terminal is just a singleton set of that terminal
 - Reduce
 - Accept
 - Error
+
+
+
+Follows
+- Take the Follow of the start symbol starting with a $
+- $\beta$ and $\alpha$ just a mix of non terminals and terminals.
+- Everything in First($\beta$) gets added onto Follow(B) where A --> $\alpha$B$\beta$
+- If its a non-terminal following B then you take First of that non-terminal
+- When $\beta$ contains $\epsilon$ then everything in Follow A is added to Follow(B) where A --> $\alpha$B$\beta$ if there is nothing in $\beta$ then the same applies
+
+Binding
+- Design time can't be changed
+- Implementation time
+- Compile Time
+- Link time
+- Runtime
