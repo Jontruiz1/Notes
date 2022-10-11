@@ -1,0 +1,22 @@
+- Explain the terms/components for game search: initial state, player, actions, result, terminal-test, utility
+
+- Define constraint satisfaction problem terms: domains, variables, assignment, objective function
+	- There is a nonempty domain of possible values for each variable with a finite set of variables and constraints. In the case of the coloring map, it's the different regions that exist on the map.
+	- Domains are the set of values that can map to each variable. In the case of the coloring map, it's the different colors that each region can be colored
+	- A consistent assignment is an assignment that does not violate constraints and an assignment is complete when every variable is assigned and partial when only 1 or more are assigned.
+	- A solution is a CSP is a complete assignment that satisfies all constraints - a complete and consistent assignment.
+	- The objective function returns the size of domain set for a solution.
+- Reasons why a game search tree would not be full generated
+	- Because there is a time limit and you are unlikely to find a goal. It must approximate.
+- Reasons hill-climbing algorithm can get stuck
+	- At a local maximum all neighboring states have a vlaue that is worse than current state so it cannot move to a new state and will get stuck. 
+- Game trees: minimax, alpha-beta pruning
+	- Alpha-beta pruning, passes alpha and beta down as -infinity and +infinity respectively for the first couple of nodes
+	- Search below a MIN node, may be alpha-pruned if its $\beta$ <= $\alpha$ of some MAX and search below a MAX node may be beta-pruned if its a >= $\beta$ of some MIN ancestor
+- Genetic algorithms - given a starting population: determine fitness given a fitness function, overall fitness, selection, crossover, reproduction/offspring
+	- Selection is the process of selecting the indivudlas who will become the parents of the next generation. Option is to randomly select n individuals (n > p), and then select the p most fit ones as parents
+	- Crossover point is the recombination procedure. An option is to randomly select a crossover point to split each of the parent strings, and recombine the parts to form two children, one with the first part of parent1 and the second part of parent 
+- Describe how temperature impacts simulated annealing algorithm
+	- The temperature decreases slowly which lets the algorithm run
+	- The higher the temp the more likely bad moves will be alowed
+- Given a description of a constraint satisfaction problem be able to identify the variables, domains, list the constraints, draw the constraint graph, run arc-consistency, and specify one solution to the problem.
