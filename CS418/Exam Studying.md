@@ -103,9 +103,6 @@
 - Goal-based agents![[Pasted image 20220316175411.png]]
 - Utility-based agents![[Pasted image 20220316175424.png]]
 
-
-![[20220316_204658.jpg]]
-
 ```mermaid
 	flowchart TD;
 
