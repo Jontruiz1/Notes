@@ -1,11 +1,14 @@
 # Fdb version 3
-["pdflatex"] 1665203918 "c:/Users/jontc/Desktop/CS/Notes/MTH152/asdf.tex" "asdf.pdf" "asdf" 1665203919
-  "asdf.aux" 1665203919 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "asdf.tex" 1665203917 1524 eb6c0befac169f3b247ed5a8e3caea06 ""
-  "c:/Users/jontc/Desktop/CS/Notes/MTH152/asdf.tex" 1665203917 1524 eb6c0befac169f3b247ed5a8e3caea06 ""
+["pdflatex"] 1665494923 "c:/Users/jontc/Desktop/CS/Notes/MTH152/asdf.tex" "asdf.pdf" "asdf" 1665494925
+  "asdf.aux" 1665494924 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "asdf.tex" 1665494922 1672 74e8395653716f2d36311689f5642be4 ""
+  "c:/Users/jontc/Desktop/CS/Notes/MTH152/asdf.tex" 1665494922 1672 74e8395653716f2d36311689f5642be4 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1665191695 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1665189439 1004 54797486969f23fa377b128694d548df ""
+  "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1665190458 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm" 1665190458 1508 efecb4a315fe0975509670a272d75ef5 ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1665189439 34811 78b52f49e893bcba91bd7581cdc144c0 ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1665189439 30251 6afa5cb1d0204815a708a080681d4674 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1665189439 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1665189439 36281 c355509802a035cadc5f15869451dcee ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1665189439 35752 024fb6c41858982481f6968b5fc26508 ""
