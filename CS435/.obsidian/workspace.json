@@ -1,0 +1,118 @@
+{
+  "main": {
+    "id": "a258f228c28b447c",
+    "type": "split",
+    "children": [
+      {
+        "id": "7894cd5857158205",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "862f52ea23862bdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HW05.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0f4dfde30c082364",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fa4cc7db2ed2ae8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7861fae3045d911",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e78f54b4aa2e4255",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 303
+  },
+  "right": {
+    "id": "cc37311e14f269cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "f0ea05468590b89e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "625d58cc72caa0a1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HW05.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "862f52ea23862bdc",
+  "lastOpenFiles": [
+    "In-Class Exam Notes.md",
+    "Exam Studying.md",
+    "test.md",
+    "HW04.md",
+    "Chapter 2.md",
+    "Chapter 3.md",
+    "Chapter 2.md.md",
+    "Pasted image 20220305204036.png"
+  ]
+}
