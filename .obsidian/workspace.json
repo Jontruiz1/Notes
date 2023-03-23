@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "050379fd750e18ef",
+        "id": "32ee93aa9c923684",
         "type": "tabs",
         "children": [
           {
-            "id": "18c25d3eb83ab8f2",
+            "id": "ad83cfb489a515cb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Animation/Principles of Design.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -61,8 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301,
-    "collapsed": true
+    "width": 301
   },
   "right": {
     "id": "d7488b1b765b857d",
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Animation/Principles of Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +99,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "18c25d3eb83ab8f2",
+  "active": "ad83cfb489a515cb",
   "lastOpenFiles": [
     "CS420/Chapter 2 Notes.md",
     "Animation/Principles of Design.md",
