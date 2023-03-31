@@ -11,8 +11,12 @@
             "id": "ad83cfb489a515cb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CS435/Exam Studying.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CS435/Exam Studying.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +106,9 @@
   },
   "active": "ad83cfb489a515cb",
   "lastOpenFiles": [
+    "CS435/Chapter 6.md",
+    "CS435/Chapter 3.md",
+    "CS435/Chapter 2.md",
     "CS420/Chapter 2 Notes.md",
     "Animation/Principles of Design.md",
     "Animation",
