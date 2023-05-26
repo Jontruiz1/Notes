@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d3025f452556af2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Apartments Near Argonne.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apartments Near Argonne.md",
+                "file": "Animatino/Final Exam notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,10 +112,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d3025f452556af2b",
+  "active": "ead873ca6ef59bfb",
   "lastOpenFiles": [
-    "Animatino/Final Exam notes.md",
     "Apartments Near Argonne.md",
+    "Animatino/Final Exam notes.md",
     "Untitled",
     "Animatino",
     "CS418/Exam Studying.md",
