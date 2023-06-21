@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Animatino/Final Exam notes.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Animatino/Final Exam notes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,8 +114,10 @@
   },
   "active": "ead873ca6ef59bfb",
   "lastOpenFiles": [
-    "Apartments Near Argonne.md",
+    "Untitled.md",
+    "README.md",
     "Animatino/Final Exam notes.md",
+    "Apartments Near Argonne.md",
     "Untitled",
     "Animatino",
     "CS418/Exam Studying.md",
